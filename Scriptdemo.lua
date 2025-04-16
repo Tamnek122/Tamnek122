@@ -33,16 +33,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Farm"})
     
 ------- BUTTON
-    
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()	 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
- 
  AddButton(Tab1o, {
      Name = "W-Azure",
     Callback = function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
- 
  AddButton(Tab1o, {
      Name = "Xero",
     Callback = function()
@@ -50,17 +47,14 @@ getgenv().Team = "Marines"
 getgenv().Hide_Menu = false
 getgenv().Auto_Execute = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))() 
-
  AddButton(Tab1o, {
      Name = "Tsou",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
-
 AddButton(Tab1o, {
      Name = "banana free",
     Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
 AddButton(Tab1o, {
      Name = "Quarty",
     Callback = function()
